@@ -1,0 +1,34 @@
+@import url("https://fonts.googleapis.com/css2?family=Dongle&display=swap");
+
+html,
+body {
+    margin: 0px;
+    width: 100%;
+    background-color: #f6f6f6;
+    display: flex;
+    justify-content: center;
+    font-family: "Dongle", sans-serif;
+    color: rgb(128, 23, 219);
+}
+
+body {
+    height: 100%;
+}
+
+#root {
+    margin: 0 auto;
+    max-width: 600px;
+    width: 100%;
+    min-height: 100vh;
+    height: 100%;
+      background-color: rgb(8, 55, 207); 
+     background: rgb(134, 197, 212); 
+ /*    background: linear-gradient(
+        180deg,
+        rgba(252, 193, 85, 0.199) 10%,
+        rgba(247, 188, 229, 0.5) 30%,
+        rgba(212, 169, 236, 0.5) 53%,
+        rgba(136, 188, 220, 0.5) 84%
+    ); */
+    box-shadow: rgba(100, 100, 100, 0.2) 0px 7px 29px 0px;
+}
